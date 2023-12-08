@@ -13,7 +13,7 @@ export const Logo = () => {
     <Link href="/">
       <div className="hover:opacity-75 transition items-center gap-x-2 hidden md:flex">
         <Image
-          src="/logo.svg"
+          src="/SyncLab-Logo.png"
           alt="Logo"
           height={30}
           width={30}

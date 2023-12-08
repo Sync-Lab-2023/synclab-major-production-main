@@ -14,8 +14,8 @@ export const metadata: Metadata = {
   description: siteConfig.description,
   icons: [
     {
-      url: "/logo.svg",
-      href: "/logo.svg"
+      url: "/SyncLab-Logo.png",
+      href: "/SyncLab-Logo.png"
     }
   ]
 }
