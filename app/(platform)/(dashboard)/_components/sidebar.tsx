@@ -132,7 +132,7 @@ export const Sidebar = ({ storageKey = "t-sidebar-state" }: SidebarProps) => {
       </div>
 
       <div className="mt-4">
-        <Link href="https://synclab-demo.vercel.app/documents/3hxsz1zq7b7x800k7ga66c939ksym2g" target="_blank">
+        <Link href="https://dotpackages.netlify.app/" target="_blank">
           <div className="flex items-center">
             <Boxes className="h-4 w-4" />
             <div className="ml-2">Package Manager</div>
