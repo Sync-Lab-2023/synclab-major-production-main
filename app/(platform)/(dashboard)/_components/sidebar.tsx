@@ -115,7 +115,7 @@ export const Sidebar = ({ storageKey = "t-sidebar-state" }: SidebarProps) => {
         <Link href="https://synclab-demo.vercel.app/documents" target="_blank">
           <div className="flex items-center">
             <FilePlus className="h-4 w-4" />
-            <div className="ml-2">New Document</div>
+            <div className="ml-2">taskify</div>
           </div>
         </Link>
       </div>
