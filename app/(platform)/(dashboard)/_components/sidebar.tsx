@@ -126,7 +126,7 @@ export const Sidebar = ({ storageKey = "t-sidebar-state" }: SidebarProps) => {
         <Link href="https://dotread.netlify.app/" target="_blank">
           <div className="flex items-center">
             <Github className="h-4 w-4" />
-            <div className="ml-2">Code Explorer</div>
+            <div className="ml-2">dotRead</div>
           </div>
         </Link>
       </div>
@@ -135,23 +135,23 @@ export const Sidebar = ({ storageKey = "t-sidebar-state" }: SidebarProps) => {
         <Link href="https://dotpackages.netlify.app/" target="_blank">
           <div className="flex items-center">
             <Boxes className="h-4 w-4" />
-            <div className="ml-2">Package Manager</div>
+            <div className="ml-2">dotPackages</div>
           </div>
         </Link>
       </div>
       <div className="mt-4">
-        <Link href="https://dotpackages.netlify.app/" target="_blank">
+        <Link href="https://next-draw.vercel.app/" target="_blank">
           <div className="flex items-center">
             <Boxes className="h-4 w-4" />
-            <div className="ml-2">Collab Whiteboard</div>
+            <div className="ml-2">NextDraw</div>
           </div>
         </Link>
       </div>
       <div className="mt-4">
-        <Link href="https://dotpackages.netlify.app/" target="_blank">
+        <Link href="https://erasor-clone.vercel.app/" target="_blank">
           <div className="flex items-center">
             <Boxes className="h-4 w-4" />
-            <div className="ml-2">Package Manager</div>
+            <div className="ml-2">VanishMark</div>
           </div>
         </Link>
       </div>
@@ -160,7 +160,7 @@ export const Sidebar = ({ storageKey = "t-sidebar-state" }: SidebarProps) => {
         <Link href="https://calendar.google.com/calendar" target="_blank">
           <div className="flex items-center">
             <CalendarDays className="h-4 w-4" />
-            <div className="ml-2">Calendar</div>
+            <div className="ml-2">My Calendar</div>
           </div>
         </Link>
       </div>
