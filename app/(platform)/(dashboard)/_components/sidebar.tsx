@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Plus } from "lucide-react";
+import { Plus, Presentation } from "lucide-react";
 import {
   ChevronsLeft,
   MenuIcon,
@@ -16,6 +16,7 @@ import {
   Github,
   Boxes,
   Home,
+  PencilRuler
 } from "lucide-react";
 import { useLocalStorage } from "usehooks-ts";
 import { useOrganization, useOrganizationList } from "@clerk/nextjs";
@@ -142,7 +143,7 @@ export const Sidebar = ({ storageKey = "t-sidebar-state" }: SidebarProps) => {
       <div className="mt-4">
         <Link href="https://next-draw.vercel.app/" target="_blank">
           <div className="flex items-center">
-            <Boxes className="h-4 w-4" />
+            <Presentation className="h-4 w-4" />
             <div className="ml-2">NextDraw</div>
           </div>
         </Link>
@@ -150,7 +151,7 @@ export const Sidebar = ({ storageKey = "t-sidebar-state" }: SidebarProps) => {
       <div className="mt-4">
         <Link href="https://erasor-clone.vercel.app/" target="_blank">
           <div className="flex items-center">
-            <Boxes className="h-4 w-4" />
+            <PencilRuler className="h-4 w-4" />
             <div className="ml-2">VanishMark</div>
           </div>
         </Link>
@@ -160,7 +161,7 @@ export const Sidebar = ({ storageKey = "t-sidebar-state" }: SidebarProps) => {
         <Link href="https://calendar.google.com/calendar" target="_blank">
           <div className="flex items-center">
             <CalendarDays className="h-4 w-4" />
-            <div className="ml-2">My Calendar</div>
+            <div className="ml-2">Calendar</div>
           </div>
         </Link>
       </div>
