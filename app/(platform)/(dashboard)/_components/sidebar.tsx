@@ -16,7 +16,8 @@ import {
   Github,
   Boxes,
   Home,
-  PencilRuler
+  PencilRuler,
+  Workflow
 } from "lucide-react";
 import { useLocalStorage } from "usehooks-ts";
 import { useOrganization, useOrganizationList } from "@clerk/nextjs";
@@ -144,7 +145,7 @@ export const Sidebar = ({ storageKey = "t-sidebar-state" }: SidebarProps) => {
         <Link href="https://next-draw.vercel.app/" target="_blank">
           <div className="flex items-center">
             <Presentation className="h-4 w-4" />
-            <div className="ml-2">NextDraw</div>
+            <div className="ml-2">nextDraw</div>
           </div>
         </Link>
       </div>
@@ -152,7 +153,15 @@ export const Sidebar = ({ storageKey = "t-sidebar-state" }: SidebarProps) => {
         <Link href="https://erasor-clone.vercel.app/" target="_blank">
           <div className="flex items-center">
             <PencilRuler className="h-4 w-4" />
-            <div className="ml-2">VanishMark</div>
+            <div className="ml-2">vanishMark</div>
+          </div>
+        </Link>
+      </div>
+      <div className="mt-4">
+        <Link href="" target="_blank">
+          <div className="flex items-center">
+            <Workflow className="h-4 w-4" />
+            <div className="ml-2">fuzzie</div>
           </div>
         </Link>
       </div>
@@ -161,7 +170,7 @@ export const Sidebar = ({ storageKey = "t-sidebar-state" }: SidebarProps) => {
         <Link href="https://calendar.google.com/calendar" target="_blank">
           <div className="flex items-center">
             <CalendarDays className="h-4 w-4" />
-            <div className="ml-2">Calendar</div>
+            <div className="ml-2">calendar</div>
           </div>
         </Link>
       </div>
