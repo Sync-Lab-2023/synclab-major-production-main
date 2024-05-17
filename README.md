@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="public\SyncLab Banner for Readme.png" width="750"/>
+</p>
+
 Key Features:
 - Auth 
 - Organizations / Workspaces
