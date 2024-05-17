@@ -1,4 +1,9 @@
-Key Features:
+<p align="center">
+    <img src="public\SyncLab Banner for Readme.png" width="750"/>
+</p>
+
+## Key Features:
+
 - Auth 
 - Organizations / Workspaces
 - Board creation
@@ -16,3 +21,14 @@ Key Features:
 - MySQL DB
 - Prisma ORM
 - shadcnUI & TailwindCSS
+
+## List of Products
+
+- FUZZIE
+- TASKIFY
+- DOTREAD
+- NEXTDRAW
+- VANISHMARK
+- CALENDAR
+- DOTPACKAGES
+- EVENTSCALE
