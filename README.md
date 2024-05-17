@@ -21,3 +21,14 @@
 - MySQL DB
 - Prisma ORM
 - shadcnUI & TailwindCSS
+
+## List of Products
+
+- FUZZIE
+- TASKIFY
+- DOTREAD
+- NEXTDRAW
+- VANISHMARK
+- CALENDAR
+- DOTPACKAGES
+- EVENTSCALE
