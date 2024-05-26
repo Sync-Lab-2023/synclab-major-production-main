@@ -158,7 +158,7 @@ export const Sidebar = ({ storageKey = "t-sidebar-state" }: SidebarProps) => {
         </Link>
       </div>
       <div className="mt-4">
-        <Link href="" target="">
+        <Link href="https://localhost:3000/workflows" target="-blank">
           <div className="flex items-center">
             <Workflow className="h-4 w-4" />
             <div className="ml-2">fuzzie</div>
